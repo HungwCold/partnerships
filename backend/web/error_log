@@ -1,0 +1,456 @@
+[28-Jun-2020 03:23:23 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/phoenix3/public_html/partnerships/backend/controllers/AddressController.php on line 115. in /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/phoenix3/public_html/partnerships/backend/controllers/AddressController.php on line 115. in /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/phoenix3/public_html/partnerships/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/bin:/usr/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'CONTENT_LENGTH' => '313',
+    'HTTP_COOKIE' => 'advanced-backend=50871b7fae8a62deb71f2bc4a3a0ee86; _identity-backend=29ae851e0932e3f0b194aeb8614079a9e3ddd9d88e59acb4e8cb60586242b269a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A18%3A%22%5B%22101%22%2C%22%22%2C2592000%5D%22%3B%7D; _csrf-backend=afcbb6a69ad4952b8b65e4a0c1c7ffec43026c47ef11addf2d5b037f581acc37a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22kVzQGvrHffXB_5htnyOudZ-b740kQaUE%22%3B%7D',
+    'HTTP_HOST' => 'hotels.toptravelasia.com',
+    'HTTP_REFERER' => 'https://hotels.toptravelasia.com/address/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ORIGIN' => 'https://hotels.toptravelasia.com',
+    'HTTP_SEC_FETCH_SITE' => 'same-origin',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'DOCUMENT_ROOT' => '/home/phoenix3/public_html/partnerships/backend/web',
+    'REMOTE_ADDR' => '118.69.176.179',
+    'REMOTE_PORT' => '60431',
+    'SERVER_ADDR' => '172.96.191.101',
+    'SERVER_NAME' => 'hotels.toptravelasia.com',
+    'SERVER_ADMIN' => 'webmaster@hotels.toptravelasia.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_SCHEME' => 'https',
+    'REQUEST_URI' => '/address/create',
+    'REDIRECT_URL' => '/address/create',
+    'GEOIP_ADDR' => '118.69.176.179',
+    'GEOIP_COUNTRY_CODE' => 'VN',
+    'GEOIP_COUNTRY_NAME' => 'Vietnam',
+    'GEOIP_CONTINENT_CODE' => 'AS',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'QUIC',
+    'SSL_PROTOCOL' => 'QUIC',
+    'SSL_CIPHER' => 'aes-128-gcm',
+    'SSL_CIPHER_USEKEYSIZE' => '128',
+    'SSL_CIPHER_ALGKEYSIZE' => '128',
+    'SCRIPT_FILENAME' => '/home/phoenix3/public_html/partnerships/backend/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://hotels.toptravelasia.com/address/create',
+    'SCRIPT_URL' => '/address/create',
+    'SCRIPT_NAME' => '/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'POST',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1593314603.0349600315093994140625,
+    'REQUEST_TIME' => 1593314603,
+]
+[28-Jun-2020 03:24:00 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/phoenix3/public_html/partnerships/backend/controllers/AddressController.php on line 116. in /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/phoenix3/public_html/partnerships/backend/controllers/AddressController.php on line 116. in /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/phoenix3/public_html/partnerships/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/bin:/usr/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'CONTENT_LENGTH' => '313',
+    'HTTP_COOKIE' => 'advanced-backend=50871b7fae8a62deb71f2bc4a3a0ee86; _identity-backend=29ae851e0932e3f0b194aeb8614079a9e3ddd9d88e59acb4e8cb60586242b269a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A18%3A%22%5B%22101%22%2C%22%22%2C2592000%5D%22%3B%7D; _csrf-backend=afcbb6a69ad4952b8b65e4a0c1c7ffec43026c47ef11addf2d5b037f581acc37a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22kVzQGvrHffXB_5htnyOudZ-b740kQaUE%22%3B%7D',
+    'HTTP_HOST' => 'hotels.toptravelasia.com',
+    'HTTP_REFERER' => 'https://hotels.toptravelasia.com/address/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ORIGIN' => 'https://hotels.toptravelasia.com',
+    'HTTP_SEC_FETCH_SITE' => 'same-origin',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'DOCUMENT_ROOT' => '/home/phoenix3/public_html/partnerships/backend/web',
+    'REMOTE_ADDR' => '118.69.176.179',
+    'REMOTE_PORT' => '64200',
+    'SERVER_ADDR' => '172.96.191.101',
+    'SERVER_NAME' => 'hotels.toptravelasia.com',
+    'SERVER_ADMIN' => 'webmaster@hotels.toptravelasia.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_SCHEME' => 'https',
+    'REQUEST_URI' => '/address/create',
+    'REDIRECT_URL' => '/address/create',
+    'GEOIP_ADDR' => '118.69.176.179',
+    'GEOIP_COUNTRY_CODE' => 'VN',
+    'GEOIP_COUNTRY_NAME' => 'Vietnam',
+    'GEOIP_CONTINENT_CODE' => 'AS',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'QUIC',
+    'SSL_PROTOCOL' => 'QUIC',
+    'SSL_CIPHER' => 'aes-128-gcm',
+    'SSL_CIPHER_USEKEYSIZE' => '128',
+    'SSL_CIPHER_ALGKEYSIZE' => '128',
+    'SCRIPT_FILENAME' => '/home/phoenix3/public_html/partnerships/backend/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://hotels.toptravelasia.com/address/create',
+    'SCRIPT_URL' => '/address/create',
+    'SCRIPT_NAME' => '/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'POST',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1593314640.3108270168304443359375,
+    'REQUEST_TIME' => 1593314640,
+]
+[28-Jun-2020 03:26:51 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/phoenix3/public_html/partnerships/backend/controllers/AddressController.php on line 116. in /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/phoenix3/public_html/partnerships/backend/controllers/AddressController.php on line 116. in /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/phoenix3/public_html/partnerships/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/bin:/usr/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'CONTENT_LENGTH' => '313',
+    'HTTP_COOKIE' => 'advanced-backend=50871b7fae8a62deb71f2bc4a3a0ee86; _identity-backend=29ae851e0932e3f0b194aeb8614079a9e3ddd9d88e59acb4e8cb60586242b269a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A18%3A%22%5B%22101%22%2C%22%22%2C2592000%5D%22%3B%7D; _csrf-backend=afcbb6a69ad4952b8b65e4a0c1c7ffec43026c47ef11addf2d5b037f581acc37a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22kVzQGvrHffXB_5htnyOudZ-b740kQaUE%22%3B%7D',
+    'HTTP_HOST' => 'hotels.toptravelasia.com',
+    'HTTP_REFERER' => 'https://hotels.toptravelasia.com/address/create',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_ORIGIN' => 'https://hotels.toptravelasia.com',
+    'HTTP_SEC_FETCH_SITE' => 'same-origin',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'DOCUMENT_ROOT' => '/home/phoenix3/public_html/partnerships/backend/web',
+    'REMOTE_ADDR' => '118.69.176.179',
+    'REMOTE_PORT' => '59692',
+    'SERVER_ADDR' => '172.96.191.101',
+    'SERVER_NAME' => 'hotels.toptravelasia.com',
+    'SERVER_ADMIN' => 'webmaster@hotels.toptravelasia.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_SCHEME' => 'https',
+    'REQUEST_URI' => '/address/create',
+    'REDIRECT_URL' => '/address/create',
+    'GEOIP_ADDR' => '118.69.176.179',
+    'GEOIP_COUNTRY_CODE' => 'VN',
+    'GEOIP_COUNTRY_NAME' => 'Vietnam',
+    'GEOIP_CONTINENT_CODE' => 'AS',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'QUIC',
+    'SSL_PROTOCOL' => 'QUIC',
+    'SSL_CIPHER' => 'aes-128-gcm',
+    'SSL_CIPHER_USEKEYSIZE' => '128',
+    'SSL_CIPHER_ALGKEYSIZE' => '128',
+    'SCRIPT_FILENAME' => '/home/phoenix3/public_html/partnerships/backend/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://hotels.toptravelasia.com/address/create',
+    'SCRIPT_URL' => '/address/create',
+    'SCRIPT_NAME' => '/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'POST',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1593314810.95989704132080078125,
+    'REQUEST_TIME' => 1593314810,
+]
+[06-Jul-2020 02:36:36 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/phoenix3/public_html/partnerships/backend/controllers/OrdersController.php on line 190. in /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/phoenix3/public_html/partnerships/backend/controllers/OrdersController.php on line 190. in /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/phoenix3/public_html/partnerships/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/bin:/usr/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ja;q=0.8,vi;q=0.7',
+    'HTTP_COOKIE' => 'PHPSESSID=aa36782f23c2163f770023ffce43574a; _identity-backend=27e25d4aa8f58615c546b00e1d5bf8b7adbedfab0973c324264e3d179cbaec9ba%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A17%3A%22%5B%2299%22%2C%22%22%2C2592000%5D%22%3B%7D; _csrf-backend=73b69bea3d65c2e834d604cd0733af975ef8195ac7f6cd70743dbe980278bc2ca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22ERw6Ms2aeWjLThGsQN0IzU5kxepc88Zj%22%3B%7D; advanced-backend=d80a81bf677447d55e8e6f390e5a639e',
+    'HTTP_HOST' => 'hotels.toptravelasia.com',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'none',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'DOCUMENT_ROOT' => '/home/phoenix3/public_html/partnerships/backend/web',
+    'REMOTE_ADDR' => '115.78.164.9',
+    'REMOTE_PORT' => '27399',
+    'SERVER_ADDR' => '172.96.191.101',
+    'SERVER_NAME' => 'hotels.toptravelasia.com',
+    'SERVER_ADMIN' => 'webmaster@hotels.toptravelasia.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_SCHEME' => 'https',
+    'REQUEST_URI' => '/orders/list',
+    'REDIRECT_URL' => '/orders/list',
+    'GEOIP_ADDR' => '115.78.164.9',
+    'GEOIP_COUNTRY_CODE' => 'VN',
+    'GEOIP_COUNTRY_NAME' => 'Vietnam',
+    'GEOIP_CONTINENT_CODE' => 'AS',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'QUIC',
+    'SSL_PROTOCOL' => 'QUIC',
+    'SSL_CIPHER' => 'aes-128-gcm',
+    'SSL_CIPHER_USEKEYSIZE' => '128',
+    'SSL_CIPHER_ALGKEYSIZE' => '128',
+    'SCRIPT_FILENAME' => '/home/phoenix3/public_html/partnerships/backend/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://hotels.toptravelasia.com/orders/list',
+    'SCRIPT_URL' => '/orders/list',
+    'SCRIPT_NAME' => '/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'GET',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1594002996.86491107940673828125,
+    'REQUEST_TIME' => 1594002996,
+]
+[15-Sep-2020 17:16:35 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/phoenix3/public_html/partnerships/backend/controllers/FacebookdbController.php on line 203. in /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/phoenix3/public_html/partnerships/backend/controllers/FacebookdbController.php on line 203. in /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/phoenix3/public_html/partnerships/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/bin:/usr/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ja;q=0.8,vi;q=0.7',
+    'HTTP_COOKIE' => 'advanced-backend=a6cd22a952d326cd87864a2087929cb7; _identity-backend=27e25d4aa8f58615c546b00e1d5bf8b7adbedfab0973c324264e3d179cbaec9ba%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A17%3A%22%5B%2299%22%2C%22%22%2C2592000%5D%22%3B%7D; _csrf-backend=67b1d892f592e203ae9c857efa111e2adafd04951e27ed573c68ecc1a14d3878a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%220D3MeimK6qThIvW3kpbfvgmotN-Qm-5Q%22%3B%7D',
+    'HTTP_HOST' => 'hotels.toptravelasia.com',
+    'HTTP_REFERER' => 'https://hotels.toptravelasia.com/facebookdb/index?FacebookdbSearch%5Buid%5D=&FacebookdbSearch%5Bname%5D=&FacebookdbSearch%5Bphone%5D=&FacebookdbSearch%5Bcomment%5D=27&sort=phone',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'same-origin',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'DOCUMENT_ROOT' => '/home/phoenix3/public_html/partnerships/backend/web',
+    'REMOTE_ADDR' => '42.118.200.64',
+    'REMOTE_PORT' => '61423',
+    'SERVER_ADDR' => '172.96.191.101',
+    'SERVER_NAME' => 'hotels.toptravelasia.com',
+    'SERVER_ADMIN' => 'webmaster@hotels.toptravelasia.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_SCHEME' => 'https',
+    'REQUEST_URI' => '/facebookdb/contact?FacebookdbSearch%5Buid%5D=&FacebookdbSearch%5Bname%5D=&FacebookdbSearch%5Bphone%5D=&FacebookdbSearch%5Bcomment%5D=27&sort=phone',
+    'REDIRECT_URL' => '/facebookdb/contact',
+    'REDIRECT_QUERY_STRING' => 'FacebookdbSearch%5Buid%5D=&FacebookdbSearch%5Bname%5D=&FacebookdbSearch%5Bphone%5D=&FacebookdbSearch%5Bcomment%5D=27&sort=phone',
+    'GEOIP_ADDR' => '42.118.200.64',
+    'GEOIP_COUNTRY_CODE' => 'VN',
+    'GEOIP_COUNTRY_NAME' => 'Vietnam',
+    'GEOIP_CONTINENT_CODE' => 'AS',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'QUIC',
+    'SSL_PROTOCOL' => 'QUIC',
+    'SSL_CIPHER' => 'aes-128-gcm',
+    'SSL_CIPHER_USEKEYSIZE' => '128',
+    'SSL_CIPHER_ALGKEYSIZE' => '128',
+    'SCRIPT_FILENAME' => '/home/phoenix3/public_html/partnerships/backend/web/index.php',
+    'QUERY_STRING' => 'FacebookdbSearch%5Buid%5D=&FacebookdbSearch%5Bname%5D=&FacebookdbSearch%5Bphone%5D=&FacebookdbSearch%5Bcomment%5D=27&sort=phone',
+    'SCRIPT_URI' => 'https://hotels.toptravelasia.com/facebookdb/contact',
+    'SCRIPT_URL' => '/facebookdb/contact',
+    'SCRIPT_NAME' => '/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'GET',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1600190195.4520680904388427734375,
+    'REQUEST_TIME' => 1600190195,
+]
+[15-Sep-2020 17:18:16 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/phoenix3/public_html/partnerships/backend/controllers/FacebookdbController.php on line 203. in /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/phoenix3/public_html/partnerships/backend/controllers/FacebookdbController.php on line 203. in /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/phoenix3/public_html/partnerships/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/bin:/usr/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ja;q=0.8,vi;q=0.7',
+    'HTTP_COOKIE' => 'advanced-backend=a6cd22a952d326cd87864a2087929cb7; _identity-backend=27e25d4aa8f58615c546b00e1d5bf8b7adbedfab0973c324264e3d179cbaec9ba%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A17%3A%22%5B%2299%22%2C%22%22%2C2592000%5D%22%3B%7D; _csrf-backend=67b1d892f592e203ae9c857efa111e2adafd04951e27ed573c68ecc1a14d3878a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%220D3MeimK6qThIvW3kpbfvgmotN-Qm-5Q%22%3B%7D',
+    'HTTP_HOST' => 'hotels.toptravelasia.com',
+    'HTTP_REFERER' => 'https://hotels.toptravelasia.com/facebookdb/index?FacebookdbSearch%5Buid%5D=&FacebookdbSearch%5Bname%5D=&FacebookdbSearch%5Bphone%5D=&FacebookdbSearch%5Bcomment%5D=27&sort=phone',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'same-origin',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'DOCUMENT_ROOT' => '/home/phoenix3/public_html/partnerships/backend/web',
+    'REMOTE_ADDR' => '42.118.200.64',
+    'REMOTE_PORT' => '53439',
+    'SERVER_ADDR' => '172.96.191.101',
+    'SERVER_NAME' => 'hotels.toptravelasia.com',
+    'SERVER_ADMIN' => 'webmaster@hotels.toptravelasia.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_SCHEME' => 'https',
+    'REQUEST_URI' => '/facebookdb/contact?FacebookdbSearch%5Buid%5D=&FacebookdbSearch%5Bname%5D=&FacebookdbSearch%5Bphone%5D=&FacebookdbSearch%5Bcomment%5D=27&sort=phone',
+    'REDIRECT_URL' => '/facebookdb/contact',
+    'REDIRECT_QUERY_STRING' => 'FacebookdbSearch%5Buid%5D=&FacebookdbSearch%5Bname%5D=&FacebookdbSearch%5Bphone%5D=&FacebookdbSearch%5Bcomment%5D=27&sort=phone',
+    'GEOIP_ADDR' => '42.118.200.64',
+    'GEOIP_COUNTRY_CODE' => 'VN',
+    'GEOIP_COUNTRY_NAME' => 'Vietnam',
+    'GEOIP_CONTINENT_CODE' => 'AS',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'QUIC',
+    'SSL_PROTOCOL' => 'QUIC',
+    'SSL_CIPHER' => 'aes-128-gcm',
+    'SSL_CIPHER_USEKEYSIZE' => '128',
+    'SSL_CIPHER_ALGKEYSIZE' => '128',
+    'SCRIPT_FILENAME' => '/home/phoenix3/public_html/partnerships/backend/web/index.php',
+    'QUERY_STRING' => 'FacebookdbSearch%5Buid%5D=&FacebookdbSearch%5Bname%5D=&FacebookdbSearch%5Bphone%5D=&FacebookdbSearch%5Bcomment%5D=27&sort=phone',
+    'SCRIPT_URI' => 'https://hotels.toptravelasia.com/facebookdb/contact',
+    'SCRIPT_URL' => '/facebookdb/contact',
+    'SCRIPT_NAME' => '/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'GET',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1600190296.5964291095733642578125,
+    'REQUEST_TIME' => 1600190296,
+]
+[15-Sep-2020 17:18:51 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/phoenix3/public_html/partnerships/backend/controllers/FacebookdbController.php on line 203. in /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/base/ErrorHandler.php(123): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/phoenix3/public_html/partnerships/backend/controllers/FacebookdbController.php on line 203. in /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/phoenix3/public_html/partnerships/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/phoenix3/public_html/partnerships/backend/web/index.php(17): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/bin:/usr/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,ja;q=0.8,vi;q=0.7',
+    'HTTP_COOKIE' => 'advanced-backend=a6cd22a952d326cd87864a2087929cb7; _identity-backend=27e25d4aa8f58615c546b00e1d5bf8b7adbedfab0973c324264e3d179cbaec9ba%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A17%3A%22%5B%2299%22%2C%22%22%2C2592000%5D%22%3B%7D; _csrf-backend=67b1d892f592e203ae9c857efa111e2adafd04951e27ed573c68ecc1a14d3878a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%220D3MeimK6qThIvW3kpbfvgmotN-Qm-5Q%22%3B%7D',
+    'HTTP_HOST' => 'hotels.toptravelasia.com',
+    'HTTP_REFERER' => 'https://hotels.toptravelasia.com/facebookdb/index?FacebookdbSearch%5Buid%5D=&FacebookdbSearch%5Bname%5D=&FacebookdbSearch%5Bphone%5D=&FacebookdbSearch%5Bcomment%5D=27&sort=phone',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_SITE' => 'same-origin',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_DEST' => 'document',
+    'DOCUMENT_ROOT' => '/home/phoenix3/public_html/partnerships/backend/web',
+    'REMOTE_ADDR' => '42.118.200.64',
+    'REMOTE_PORT' => '53452',
+    'SERVER_ADDR' => '172.96.191.101',
+    'SERVER_NAME' => 'hotels.toptravelasia.com',
+    'SERVER_ADMIN' => 'webmaster@hotels.toptravelasia.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_SCHEME' => 'https',
+    'REQUEST_URI' => '/facebookdb/contact?FacebookdbSearch%5Buid%5D=&FacebookdbSearch%5Bname%5D=&FacebookdbSearch%5Bphone%5D=&FacebookdbSearch%5Bcomment%5D=27&sort=phone',
+    'REDIRECT_URL' => '/facebookdb/contact',
+    'REDIRECT_QUERY_STRING' => 'FacebookdbSearch%5Buid%5D=&FacebookdbSearch%5Bname%5D=&FacebookdbSearch%5Bphone%5D=&FacebookdbSearch%5Bcomment%5D=27&sort=phone',
+    'GEOIP_ADDR' => '42.118.200.64',
+    'GEOIP_COUNTRY_CODE' => 'VN',
+    'GEOIP_COUNTRY_NAME' => 'Vietnam',
+    'GEOIP_CONTINENT_CODE' => 'AS',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'QUIC',
+    'SSL_PROTOCOL' => 'QUIC',
+    'SSL_CIPHER' => 'aes-128-gcm',
+    'SSL_CIPHER_USEKEYSIZE' => '128',
+    'SSL_CIPHER_ALGKEYSIZE' => '128',
+    'SCRIPT_FILENAME' => '/home/phoenix3/public_html/partnerships/backend/web/index.php',
+    'QUERY_STRING' => 'FacebookdbSearch%5Buid%5D=&FacebookdbSearch%5Bname%5D=&FacebookdbSearch%5Bphone%5D=&FacebookdbSearch%5Bcomment%5D=27&sort=phone',
+    'SCRIPT_URI' => 'https://hotels.toptravelasia.com/facebookdb/contact',
+    'SCRIPT_URL' => '/facebookdb/contact',
+    'SCRIPT_NAME' => '/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'GET',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1600190331.78032398223876953125,
+    'REQUEST_TIME' => 1600190331,
+]

@@ -1,0 +1,3067 @@
+{
+  "0": {
+    "@xmlns:xmlns": "http://www.demandware.com/xml/impex/order/2006-10-31",
+    "@order-no": "APAC_00861356",
+    "order-date": "2020-06-19T04:59:39.000Z",
+    "created-by": "storefront",
+    "original-order-no": "APAC_00861356",
+    "currency": "AUD",
+    "customer-locale": "en_AU",
+    "taxation": "gross",
+    "invoice-no": "02888343",
+    "customer": {
+      "customer-no": "02686225",
+      "customer-name": "Kym Pearce",
+      "customer-email": "kym.pearce@gmail.com",
+      "billing-address": {
+        "first-name": "Kym",
+        "last-name": "Pearce",
+        "address1": "PO Box 80",
+        "city": "Petrie",
+        "postal-code": "4502",
+        "state-code": "QLD",
+        "country-code": "AU",
+        "phone": "0400 611638"
+      }
+    },
+    "status": {
+      "order-status": "NEW",
+      "shipping-status": "NOT_SHIPPED",
+      "confirmation-status": "NOT_CONFIRMED",
+      "payment-status": "PAID"
+    },
+    "current-order-no": "APAC_00861356",
+    "product-lineitems": {
+      "product-lineitem": [
+        {
+          "net-price": "36.00",
+          "tax": "0.00",
+          "gross-price": "36.00",
+          "base-price": "36.00",
+          "lineitem-text": "Organic Chai Loose Leaf Everyday Refill",
+          "tax-basis": "36.00",
+          "position": "1",
+          "product-id": "T125AG005",
+          "product-name": "Organic Chai Loose Leaf Everyday Refill",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "22.5"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-11.00",
+              "tax": "0.00",
+              "gross-price": "-11.00",
+              "base-price": "-11.00",
+              "lineitem-text": "fixed-price-25",
+              "tax-basis": "-11.00",
+              "promotion-id": "fixed-price-25",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "32.00",
+          "tax": "0.00",
+          "gross-price": "32.00",
+          "base-price": "16.00",
+          "lineitem-text": "Honey Vanilla Loose Leaf Gift Cube",
+          "tax-basis": "32.00",
+          "position": "2",
+          "product-id": "T135AE003",
+          "product-name": "Honey Vanilla Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "2.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "9.0"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-12.00",
+              "tax": "0.00",
+              "gross-price": "-12.00",
+              "base-price": "-12.00",
+              "lineitem-text": "fixed-price-10",
+              "tax-basis": "-12.00",
+              "promotion-id": "fixed-price-10",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "15.00",
+          "tax": "0.00",
+          "gross-price": "15.00",
+          "base-price": "15.00",
+          "lineitem-text": "Vanilla Slice Loose Leaf Gift Cube",
+          "tax-basis": "15.00",
+          "position": "3",
+          "product-id": "T130AE009",
+          "product-name": "Vanilla Slice Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "6.3"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-8.00",
+              "tax": "0.00",
+              "gross-price": "-8.00",
+              "base-price": "-8.00",
+              "lineitem-text": "fixed-price-7",
+              "tax-basis": "-8.00",
+              "promotion-id": "fixed-price-7",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "16.00",
+          "tax": "0.00",
+          "gross-price": "16.00",
+          "base-price": "16.00",
+          "lineitem-text": "Green Rose Loose Leaf Gift Cube",
+          "tax-basis": "16.00",
+          "position": "4",
+          "product-id": "T115AE010",
+          "product-name": "Green Rose Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "9.0"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-6.00",
+              "tax": "0.00",
+              "gross-price": "-6.00",
+              "base-price": "-6.00",
+              "lineitem-text": "fixed-price-10",
+              "tax-basis": "-6.00",
+              "promotion-id": "fixed-price-10",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "14.00",
+          "tax": "0.00",
+          "gross-price": "14.00",
+          "base-price": "14.00",
+          "lineitem-text": "Sencha Vanilla Loose Leaf Gift Cube",
+          "tax-basis": "14.00",
+          "position": "5",
+          "product-id": "T115AE018",
+          "product-name": "Sencha Vanilla Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "4.5"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-9.00",
+              "tax": "0.00",
+              "gross-price": "-9.00",
+              "base-price": "-9.00",
+              "lineitem-text": "fixed-price-5",
+              "tax-basis": "-9.00",
+              "promotion-id": "fixed-price-5",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "16.00",
+          "tax": "0.00",
+          "gross-price": "16.00",
+          "base-price": "16.00",
+          "lineitem-text": "Packs A Peach Loose Leaf Gift Cube",
+          "tax-basis": "16.00",
+          "position": "6",
+          "product-id": "T130AE057",
+          "product-name": "Packs A Peach Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "14.4"
+              }
+            ]
+          }
+        },
+        {
+          "net-price": "9.09",
+          "tax": "0.91",
+          "gross-price": "10.00",
+          "base-price": "5.00",
+          "lineitem-text": "Moroccan Moment Tea Glass Aqua",
+          "tax-basis": "10.00",
+          "position": "7",
+          "product-id": "H205BC578",
+          "product-name": "Moroccan Moment Tea Glass Aqua",
+          "quantity": {
+            "@unit": "",
+            "$": "2.0"
+          },
+          "tax-rate": "0.1",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "refundableLinePrice",
+              "$": "4.5"
+            }
+          }
+        },
+        {
+          "net-price": "6.36",
+          "tax": "0.64",
+          "gross-price": "7.00",
+          "base-price": "7.00",
+          "lineitem-text": "Porto Tumbler Teal",
+          "tax-basis": "7.00",
+          "position": "8",
+          "product-id": "H210BC932",
+          "product-name": "Porto Tumbler Teal",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.1",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "refundableLinePrice",
+              "$": "6.3"
+            }
+          }
+        },
+        {
+          "net-price": "4.55",
+          "tax": "0.45",
+          "gross-price": "5.00",
+          "base-price": "5.00",
+          "lineitem-text": "Moroccan Moment Tea Glass Rose",
+          "tax-basis": "5.00",
+          "position": "9",
+          "product-id": "H205BC585",
+          "product-name": "Moroccan Moment Tea Glass Rose",
+          "quantity": {
+            "@unit": "",
+            "$": "1.0"
+          },
+          "tax-rate": "0.1",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "refundableLinePrice",
+              "$": "4.5"
+            }
+          }
+        },
+        {
+          "net-price": "4.55",
+          "tax": "0.45",
+          "gross-price": "5.00",
+          "base-price": "5.00",
+          "lineitem-text": "Moroccan Moment Tea Glass Opaque",
+          "tax-basis": "5.00",
+          "position": "10",
+          "product-id": "H205BC579",
+          "product-name": "Moroccan Moment Tea Glass Opaque",
+          "quantity": {
+            "@unit": "",
+            "$": "1.0"
+          },
+          "tax-rate": "0.1",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "refundableLinePrice",
+              "$": "4.5"
+            }
+          }
+        }
+      ]
+    },
+    "shipping-lineitems": {
+      "shipping-lineitem": {
+        "net-price": "9.05",
+        "tax": "0.90",
+        "gross-price": "9.95",
+        "base-price": "9.95",
+        "lineitem-text": "Shipping",
+        "tax-basis": "9.95",
+        "price-adjustments": {
+          "price-adjustment": {
+            "net-price": "-9.05",
+            "tax": "-0.90",
+            "gross-price": "-9.95",
+            "base-price": "-9.95",
+            "lineitem-text": "AU_Standard_Shipping",
+            "tax-basis": "-9.95",
+            "promotion-id": "AU_Standard_Shipping",
+            "campaign-id": "8"
+          }
+        },
+        "item-id": "STANDARD_SHIPPING",
+        "shipment-id": "01983723",
+        "tax-rate": "0.1"
+      }
+    },
+    "shipments": {
+      "shipment": {
+        "@shipment-id": "01983723",
+        "status": {
+          "shipping-status": "NOT_SHIPPED"
+        },
+        "shipping-method": "6187",
+        "shipping-address": {
+          "first-name": "Kym",
+          "last-name": "Pearce",
+          "address1": "PO Box 80",
+          "city": "Petrie",
+          "postal-code": "4502",
+          "state-code": "QLD",
+          "country-code": "AU",
+          "phone": "0400 611638",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "email",
+              "$": "kym.pearce@gmail.com"
+            }
+          }
+        },
+        "gift": "false",
+        "totals": {
+          "merchandize-total": {
+            "net-price": "153.55",
+            "tax": "2.45",
+            "gross-price": "156.00"
+          },
+          "adjusted-merchandize-total": {
+            "net-price": "107.55",
+            "tax": "2.45",
+            "gross-price": "110.00"
+          },
+          "shipping-total": {
+            "net-price": "9.05",
+            "tax": "0.90",
+            "gross-price": "9.95"
+          },
+          "adjusted-shipping-total": {
+            "net-price": "0.00",
+            "tax": "0.00",
+            "gross-price": "0.00"
+          },
+          "shipment-total": {
+            "net-price": "107.55",
+            "tax": "2.45",
+            "gross-price": "110.00"
+          }
+        }
+      }
+    },
+    "totals": {
+      "merchandize-total": {
+        "net-price": "153.55",
+        "tax": "2.45",
+        "gross-price": "156.00",
+        "price-adjustments": {
+          "price-adjustment": {
+            "net-price": "-10.83",
+            "tax": "-0.17",
+            "gross-price": "-11.00",
+            "base-price": "-11.00",
+            "lineitem-text": "10% Off Tea Society",
+            "tax-basis": "-11.00",
+            "promotion-id": "10%_Off_Site_Wide",
+            "campaign-id": "10%_Off_Site_Wide"
+          }
+        }
+      },
+      "adjusted-merchandize-total": {
+        "net-price": "96.72",
+        "tax": "2.28",
+        "gross-price": "99.00"
+      },
+      "shipping-total": {
+        "net-price": "9.05",
+        "tax": "0.90",
+        "gross-price": "9.95"
+      },
+      "adjusted-shipping-total": {
+        "net-price": "0.00",
+        "tax": "0.00",
+        "gross-price": "0.00"
+      },
+      "order-total": {
+        "net-price": "96.72",
+        "tax": "2.28",
+        "gross-price": "99.00"
+      }
+    },
+    "payments": {
+      "payment": {
+        "custom-method": {
+          "method-name": "AFTERPAY_PBI"
+        },
+        "amount": "99.00",
+        "processor-id": "AFTERPAY_CREDIT",
+        "transaction-id": "125881401",
+        "custom-attributes": {
+          "custom-attribute": [
+            {
+              "@attribute-id": "acquirerReference",
+              "$": "125881401"
+            },
+            {
+              "@attribute-id": "apDirectPaymentStatus",
+              "$": "APPROVED"
+            },
+            {
+              "@attribute-id": "apInitialStatus",
+              "$": "SUCCESS"
+            },
+            {
+              "@attribute-id": "apPaymentID",
+              "$": "125881401"
+            },
+            {
+              "@attribute-id": "apPaymentMode",
+              "$": "DIRECT_CAPTURE"
+            },
+            {
+              "@attribute-id": "apToken",
+              "$": "001.ffjc9sqaapqp2i0vokj13im6mi86jgl1fsp7tfgrqdsafar7"
+            },
+            {
+              "@attribute-id": "merchantReference",
+              "$": "001.ffjc9sqaapqp2i0vokj13im6mi86jgl1fsp7tfgrqdsafar7"
+            },
+            {
+              "@attribute-id": "pspAuthorizedAmount",
+              "$": "99.0"
+            },
+            {
+              "@attribute-id": "pspPaymentMethod",
+              "$": "AFTERPAY_PBI"
+            },
+            {
+              "@attribute-id": "pspReference",
+              "$": "125881401"
+            },
+            {
+              "@attribute-id": "pspStatusCode",
+              "$": "APPROVED"
+            },
+            {
+              "@attribute-id": "pspStatusReason",
+              "$": "APPROVED"
+            }
+          ]
+        }
+      }
+    },
+    "remoteHost": "145.34.136.131",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "CoreMarketCountry",
+          "$": "AU"
+        },
+        {
+          "@attribute-id": "GivexPostStatus",
+          "$": "Pending"
+        },
+        {
+          "@attribute-id": "apIsAfterpayOrder",
+          "$": "true"
+        },
+        {
+          "@attribute-id": "apPaymentID",
+          "$": "125881401"
+        },
+        {
+          "@attribute-id": "apPaymentStatus",
+          "$": "APPROVED"
+        },
+        {
+          "@attribute-id": "cncStore",
+          "$": "27"
+        },
+        {
+          "@attribute-id": "customerLoyaltyNumber",
+          "$": "90360100000002686225"
+        },
+        {
+          "@attribute-id": "invoicePreference",
+          "$": "true"
+        },
+        {
+          "@attribute-id": "isCNCOrder",
+          "$": "false"
+        },
+        {
+          "@attribute-id": "isOrderConfirmationEmailSent",
+          "$": "true"
+        },
+        {
+          "@attribute-id": "lCode",
+          "$": "2731602"
+        },
+        {
+          "@attribute-id": "orderLocale",
+          "$": "en_AU"
+        },
+        {
+          "@attribute-id": "orderType",
+          "$": "Online"
+        },
+        {
+          "@attribute-id": "placedFromSite",
+          "$": "UNI-T2-APAC"
+        }
+      ]
+    }
+  },
+  "1": {
+    "@xmlns:xmlns": "http://www.demandware.com/xml/impex/order/2006-10-31",
+    "@order-no": "APAC_00861357",
+    "order-date": "2020-06-19T04:59:39.000Z",
+    "created-by": "storefront",
+    "original-order-no": "APAC_00861356",
+    "currency": "AUD",
+    "customer-locale": "en_AU",
+    "taxation": "gross",
+    "invoice-no": "02888343",
+    "customer": {
+      "customer-no": "02686225",
+      "customer-name": "Kym Pearce",
+      "customer-email": "kym.pearce@gmail.com",
+      "billing-address": {
+        "first-name": "Kym",
+        "last-name": "Pearce",
+        "address1": "PO Box 80",
+        "city": "Petrie",
+        "postal-code": "4502",
+        "state-code": "QLD",
+        "country-code": "AU",
+        "phone": "0400 611638"
+      }
+    },
+    "status": {
+      "order-status": "NEW",
+      "shipping-status": "NOT_SHIPPED",
+      "confirmation-status": "NOT_CONFIRMED",
+      "payment-status": "PAID"
+    },
+    "current-order-no": "APAC_00861356",
+    "product-lineitems": {
+      "product-lineitem": [
+        {
+          "net-price": "36.00",
+          "tax": "0.00",
+          "gross-price": "36.00",
+          "base-price": "36.00",
+          "lineitem-text": "Organic Chai Loose Leaf Everyday Refill",
+          "tax-basis": "36.00",
+          "position": "1",
+          "product-id": "T125AG005",
+          "product-name": "Organic Chai Loose Leaf Everyday Refill",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "22.5"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-11.00",
+              "tax": "0.00",
+              "gross-price": "-11.00",
+              "base-price": "-11.00",
+              "lineitem-text": "fixed-price-25",
+              "tax-basis": "-11.00",
+              "promotion-id": "fixed-price-25",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "32.00",
+          "tax": "0.00",
+          "gross-price": "32.00",
+          "base-price": "16.00",
+          "lineitem-text": "Honey Vanilla Loose Leaf Gift Cube",
+          "tax-basis": "32.00",
+          "position": "2",
+          "product-id": "T135AE003",
+          "product-name": "Honey Vanilla Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "2.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "9.0"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-12.00",
+              "tax": "0.00",
+              "gross-price": "-12.00",
+              "base-price": "-12.00",
+              "lineitem-text": "fixed-price-10",
+              "tax-basis": "-12.00",
+              "promotion-id": "fixed-price-10",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "15.00",
+          "tax": "0.00",
+          "gross-price": "15.00",
+          "base-price": "15.00",
+          "lineitem-text": "Vanilla Slice Loose Leaf Gift Cube",
+          "tax-basis": "15.00",
+          "position": "3",
+          "product-id": "T130AE009",
+          "product-name": "Vanilla Slice Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "6.3"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-8.00",
+              "tax": "0.00",
+              "gross-price": "-8.00",
+              "base-price": "-8.00",
+              "lineitem-text": "fixed-price-7",
+              "tax-basis": "-8.00",
+              "promotion-id": "fixed-price-7",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "16.00",
+          "tax": "0.00",
+          "gross-price": "16.00",
+          "base-price": "16.00",
+          "lineitem-text": "Green Rose Loose Leaf Gift Cube",
+          "tax-basis": "16.00",
+          "position": "4",
+          "product-id": "T115AE010",
+          "product-name": "Green Rose Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "9.0"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-6.00",
+              "tax": "0.00",
+              "gross-price": "-6.00",
+              "base-price": "-6.00",
+              "lineitem-text": "fixed-price-10",
+              "tax-basis": "-6.00",
+              "promotion-id": "fixed-price-10",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "14.00",
+          "tax": "0.00",
+          "gross-price": "14.00",
+          "base-price": "14.00",
+          "lineitem-text": "Sencha Vanilla Loose Leaf Gift Cube",
+          "tax-basis": "14.00",
+          "position": "5",
+          "product-id": "T115AE018",
+          "product-name": "Sencha Vanilla Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "4.5"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-9.00",
+              "tax": "0.00",
+              "gross-price": "-9.00",
+              "base-price": "-9.00",
+              "lineitem-text": "fixed-price-5",
+              "tax-basis": "-9.00",
+              "promotion-id": "fixed-price-5",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "16.00",
+          "tax": "0.00",
+          "gross-price": "16.00",
+          "base-price": "16.00",
+          "lineitem-text": "Packs A Peach Loose Leaf Gift Cube",
+          "tax-basis": "16.00",
+          "position": "6",
+          "product-id": "T130AE057",
+          "product-name": "Packs A Peach Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "14.4"
+              }
+            ]
+          }
+        },
+        {
+          "net-price": "9.09",
+          "tax": "0.91",
+          "gross-price": "10.00",
+          "base-price": "5.00",
+          "lineitem-text": "Moroccan Moment Tea Glass Aqua",
+          "tax-basis": "10.00",
+          "position": "7",
+          "product-id": "H205BC578",
+          "product-name": "Moroccan Moment Tea Glass Aqua",
+          "quantity": {
+            "@unit": "",
+            "$": "2.0"
+          },
+          "tax-rate": "0.1",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "refundableLinePrice",
+              "$": "4.5"
+            }
+          }
+        },
+        {
+          "net-price": "6.36",
+          "tax": "0.64",
+          "gross-price": "7.00",
+          "base-price": "7.00",
+          "lineitem-text": "Porto Tumbler Teal",
+          "tax-basis": "7.00",
+          "position": "8",
+          "product-id": "H210BC932",
+          "product-name": "Porto Tumbler Teal",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.1",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "refundableLinePrice",
+              "$": "6.3"
+            }
+          }
+        },
+        {
+          "net-price": "4.55",
+          "tax": "0.45",
+          "gross-price": "5.00",
+          "base-price": "5.00",
+          "lineitem-text": "Moroccan Moment Tea Glass Rose",
+          "tax-basis": "5.00",
+          "position": "9",
+          "product-id": "H205BC585",
+          "product-name": "Moroccan Moment Tea Glass Rose",
+          "quantity": {
+            "@unit": "",
+            "$": "1.0"
+          },
+          "tax-rate": "0.1",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "refundableLinePrice",
+              "$": "4.5"
+            }
+          }
+        },
+        {
+          "net-price": "4.55",
+          "tax": "0.45",
+          "gross-price": "5.00",
+          "base-price": "5.00",
+          "lineitem-text": "Moroccan Moment Tea Glass Opaque",
+          "tax-basis": "5.00",
+          "position": "10",
+          "product-id": "H205BC579",
+          "product-name": "Moroccan Moment Tea Glass Opaque",
+          "quantity": {
+            "@unit": "",
+            "$": "1.0"
+          },
+          "tax-rate": "0.1",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "refundableLinePrice",
+              "$": "4.5"
+            }
+          }
+        }
+      ]
+    },
+    "shipping-lineitems": {
+      "shipping-lineitem": {
+        "net-price": "9.05",
+        "tax": "0.90",
+        "gross-price": "9.95",
+        "base-price": "9.95",
+        "lineitem-text": "Shipping",
+        "tax-basis": "9.95",
+        "price-adjustments": {
+          "price-adjustment": {
+            "net-price": "-9.05",
+            "tax": "-0.90",
+            "gross-price": "-9.95",
+            "base-price": "-9.95",
+            "lineitem-text": "AU_Standard_Shipping",
+            "tax-basis": "-9.95",
+            "promotion-id": "AU_Standard_Shipping",
+            "campaign-id": "8"
+          }
+        },
+        "item-id": "STANDARD_SHIPPING",
+        "shipment-id": "01983723",
+        "tax-rate": "0.1"
+      }
+    },
+    "shipments": {
+      "shipment": {
+        "@shipment-id": "01983723",
+        "status": {
+          "shipping-status": "NOT_SHIPPED"
+        },
+        "shipping-method": "6187",
+        "shipping-address": {
+          "first-name": "Kym",
+          "last-name": "Pearce",
+          "address1": "PO Box 80",
+          "city": "Petrie",
+          "postal-code": "4502",
+          "state-code": "QLD",
+          "country-code": "AU",
+          "phone": "0400 611638",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "email",
+              "$": "kym.pearce@gmail.com"
+            }
+          }
+        },
+        "gift": "false",
+        "totals": {
+          "merchandize-total": {
+            "net-price": "153.55",
+            "tax": "2.45",
+            "gross-price": "156.00"
+          },
+          "adjusted-merchandize-total": {
+            "net-price": "107.55",
+            "tax": "2.45",
+            "gross-price": "110.00"
+          },
+          "shipping-total": {
+            "net-price": "9.05",
+            "tax": "0.90",
+            "gross-price": "9.95"
+          },
+          "adjusted-shipping-total": {
+            "net-price": "0.00",
+            "tax": "0.00",
+            "gross-price": "0.00"
+          },
+          "shipment-total": {
+            "net-price": "107.55",
+            "tax": "2.45",
+            "gross-price": "110.00"
+          }
+        }
+      }
+    },
+    "totals": {
+      "merchandize-total": {
+        "net-price": "153.55",
+        "tax": "2.45",
+        "gross-price": "156.00",
+        "price-adjustments": {
+          "price-adjustment": {
+            "net-price": "-10.83",
+            "tax": "-0.17",
+            "gross-price": "-11.00",
+            "base-price": "-11.00",
+            "lineitem-text": "10% Off Tea Society",
+            "tax-basis": "-11.00",
+            "promotion-id": "10%_Off_Site_Wide",
+            "campaign-id": "10%_Off_Site_Wide"
+          }
+        }
+      },
+      "adjusted-merchandize-total": {
+        "net-price": "96.72",
+        "tax": "2.28",
+        "gross-price": "99.00"
+      },
+      "shipping-total": {
+        "net-price": "9.05",
+        "tax": "0.90",
+        "gross-price": "9.95"
+      },
+      "adjusted-shipping-total": {
+        "net-price": "0.00",
+        "tax": "0.00",
+        "gross-price": "0.00"
+      },
+      "order-total": {
+        "net-price": "96.72",
+        "tax": "2.28",
+        "gross-price": "99.00"
+      }
+    },
+    "payments": {
+      "payment": {
+        "custom-method": {
+          "method-name": "AFTERPAY_PBI"
+        },
+        "amount": "99.00",
+        "processor-id": "AFTERPAY_CREDIT",
+        "transaction-id": "125881401",
+        "custom-attributes": {
+          "custom-attribute": [
+            {
+              "@attribute-id": "acquirerReference",
+              "$": "125881401"
+            },
+            {
+              "@attribute-id": "apDirectPaymentStatus",
+              "$": "APPROVED"
+            },
+            {
+              "@attribute-id": "apInitialStatus",
+              "$": "SUCCESS"
+            },
+            {
+              "@attribute-id": "apPaymentID",
+              "$": "125881401"
+            },
+            {
+              "@attribute-id": "apPaymentMode",
+              "$": "DIRECT_CAPTURE"
+            },
+            {
+              "@attribute-id": "apToken",
+              "$": "001.ffjc9sqaapqp2i0vokj13im6mi86jgl1fsp7tfgrqdsafar7"
+            },
+            {
+              "@attribute-id": "merchantReference",
+              "$": "001.ffjc9sqaapqp2i0vokj13im6mi86jgl1fsp7tfgrqdsafar7"
+            },
+            {
+              "@attribute-id": "pspAuthorizedAmount",
+              "$": "99.0"
+            },
+            {
+              "@attribute-id": "pspPaymentMethod",
+              "$": "AFTERPAY_PBI"
+            },
+            {
+              "@attribute-id": "pspReference",
+              "$": "125881401"
+            },
+            {
+              "@attribute-id": "pspStatusCode",
+              "$": "APPROVED"
+            },
+            {
+              "@attribute-id": "pspStatusReason",
+              "$": "APPROVED"
+            }
+          ]
+        }
+      }
+    },
+    "remoteHost": "145.34.136.131",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "CoreMarketCountry",
+          "$": "AU"
+        },
+        {
+          "@attribute-id": "GivexPostStatus",
+          "$": "Pending"
+        },
+        {
+          "@attribute-id": "apIsAfterpayOrder",
+          "$": "true"
+        },
+        {
+          "@attribute-id": "apPaymentID",
+          "$": "125881401"
+        },
+        {
+          "@attribute-id": "apPaymentStatus",
+          "$": "APPROVED"
+        },
+        {
+          "@attribute-id": "cncStore",
+          "$": "27"
+        },
+        {
+          "@attribute-id": "customerLoyaltyNumber",
+          "$": "90360100000002686225"
+        },
+        {
+          "@attribute-id": "invoicePreference",
+          "$": "true"
+        },
+        {
+          "@attribute-id": "isCNCOrder",
+          "$": "false"
+        },
+        {
+          "@attribute-id": "isOrderConfirmationEmailSent",
+          "$": "true"
+        },
+        {
+          "@attribute-id": "lCode",
+          "$": "2731602"
+        },
+        {
+          "@attribute-id": "orderLocale",
+          "$": "en_AU"
+        },
+        {
+          "@attribute-id": "orderType",
+          "$": "Online"
+        },
+        {
+          "@attribute-id": "placedFromSite",
+          "$": "UNI-T2-APAC"
+        }
+      ]
+    }
+  },
+  "2": {
+    "@xmlns:xmlns": "http://www.demandware.com/xml/impex/order/2006-10-31",
+    "@order-no": "APAC_00861358",
+    "order-date": "2020-06-19T04:59:39.000Z",
+    "created-by": "storefront",
+    "original-order-no": "APAC_00861356",
+    "currency": "AUD",
+    "customer-locale": "en_AU",
+    "taxation": "gross",
+    "invoice-no": "02888343",
+    "customer": {
+      "customer-no": "02686225",
+      "customer-name": "Kym Pearce",
+      "customer-email": "kym.pearce@gmail.com",
+      "billing-address": {
+        "first-name": "Kym",
+        "last-name": "Pearce",
+        "address1": "PO Box 80",
+        "city": "Petrie",
+        "postal-code": "4502",
+        "state-code": "QLD",
+        "country-code": "AU",
+        "phone": "0400 611638"
+      }
+    },
+    "status": {
+      "order-status": "NEW",
+      "shipping-status": "NOT_SHIPPED",
+      "confirmation-status": "NOT_CONFIRMED",
+      "payment-status": "PAID"
+    },
+    "current-order-no": "APAC_00861356",
+    "product-lineitems": {
+      "product-lineitem": [
+        {
+          "net-price": "36.00",
+          "tax": "0.00",
+          "gross-price": "36.00",
+          "base-price": "36.00",
+          "lineitem-text": "Organic Chai Loose Leaf Everyday Refill",
+          "tax-basis": "36.00",
+          "position": "1",
+          "product-id": "T125AG005",
+          "product-name": "Organic Chai Loose Leaf Everyday Refill",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "22.5"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-11.00",
+              "tax": "0.00",
+              "gross-price": "-11.00",
+              "base-price": "-11.00",
+              "lineitem-text": "fixed-price-25",
+              "tax-basis": "-11.00",
+              "promotion-id": "fixed-price-25",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "32.00",
+          "tax": "0.00",
+          "gross-price": "32.00",
+          "base-price": "16.00",
+          "lineitem-text": "Honey Vanilla Loose Leaf Gift Cube",
+          "tax-basis": "32.00",
+          "position": "2",
+          "product-id": "T135AE003",
+          "product-name": "Honey Vanilla Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "2.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "9.0"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-12.00",
+              "tax": "0.00",
+              "gross-price": "-12.00",
+              "base-price": "-12.00",
+              "lineitem-text": "fixed-price-10",
+              "tax-basis": "-12.00",
+              "promotion-id": "fixed-price-10",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "15.00",
+          "tax": "0.00",
+          "gross-price": "15.00",
+          "base-price": "15.00",
+          "lineitem-text": "Vanilla Slice Loose Leaf Gift Cube",
+          "tax-basis": "15.00",
+          "position": "3",
+          "product-id": "T130AE009",
+          "product-name": "Vanilla Slice Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "6.3"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-8.00",
+              "tax": "0.00",
+              "gross-price": "-8.00",
+              "base-price": "-8.00",
+              "lineitem-text": "fixed-price-7",
+              "tax-basis": "-8.00",
+              "promotion-id": "fixed-price-7",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "16.00",
+          "tax": "0.00",
+          "gross-price": "16.00",
+          "base-price": "16.00",
+          "lineitem-text": "Green Rose Loose Leaf Gift Cube",
+          "tax-basis": "16.00",
+          "position": "4",
+          "product-id": "T115AE010",
+          "product-name": "Green Rose Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "9.0"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-6.00",
+              "tax": "0.00",
+              "gross-price": "-6.00",
+              "base-price": "-6.00",
+              "lineitem-text": "fixed-price-10",
+              "tax-basis": "-6.00",
+              "promotion-id": "fixed-price-10",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "14.00",
+          "tax": "0.00",
+          "gross-price": "14.00",
+          "base-price": "14.00",
+          "lineitem-text": "Sencha Vanilla Loose Leaf Gift Cube",
+          "tax-basis": "14.00",
+          "position": "5",
+          "product-id": "T115AE018",
+          "product-name": "Sencha Vanilla Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "4.5"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-9.00",
+              "tax": "0.00",
+              "gross-price": "-9.00",
+              "base-price": "-9.00",
+              "lineitem-text": "fixed-price-5",
+              "tax-basis": "-9.00",
+              "promotion-id": "fixed-price-5",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "16.00",
+          "tax": "0.00",
+          "gross-price": "16.00",
+          "base-price": "16.00",
+          "lineitem-text": "Packs A Peach Loose Leaf Gift Cube",
+          "tax-basis": "16.00",
+          "position": "6",
+          "product-id": "T130AE057",
+          "product-name": "Packs A Peach Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "14.4"
+              }
+            ]
+          }
+        },
+        {
+          "net-price": "9.09",
+          "tax": "0.91",
+          "gross-price": "10.00",
+          "base-price": "5.00",
+          "lineitem-text": "Moroccan Moment Tea Glass Aqua",
+          "tax-basis": "10.00",
+          "position": "7",
+          "product-id": "H205BC578",
+          "product-name": "Moroccan Moment Tea Glass Aqua",
+          "quantity": {
+            "@unit": "",
+            "$": "2.0"
+          },
+          "tax-rate": "0.1",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "refundableLinePrice",
+              "$": "4.5"
+            }
+          }
+        },
+        {
+          "net-price": "6.36",
+          "tax": "0.64",
+          "gross-price": "7.00",
+          "base-price": "7.00",
+          "lineitem-text": "Porto Tumbler Teal",
+          "tax-basis": "7.00",
+          "position": "8",
+          "product-id": "H210BC932",
+          "product-name": "Porto Tumbler Teal",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.1",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "refundableLinePrice",
+              "$": "6.3"
+            }
+          }
+        },
+        {
+          "net-price": "4.55",
+          "tax": "0.45",
+          "gross-price": "5.00",
+          "base-price": "5.00",
+          "lineitem-text": "Moroccan Moment Tea Glass Rose",
+          "tax-basis": "5.00",
+          "position": "9",
+          "product-id": "H205BC585",
+          "product-name": "Moroccan Moment Tea Glass Rose",
+          "quantity": {
+            "@unit": "",
+            "$": "1.0"
+          },
+          "tax-rate": "0.1",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "refundableLinePrice",
+              "$": "4.5"
+            }
+          }
+        },
+        {
+          "net-price": "4.55",
+          "tax": "0.45",
+          "gross-price": "5.00",
+          "base-price": "5.00",
+          "lineitem-text": "Moroccan Moment Tea Glass Opaque",
+          "tax-basis": "5.00",
+          "position": "10",
+          "product-id": "H205BC579",
+          "product-name": "Moroccan Moment Tea Glass Opaque",
+          "quantity": {
+            "@unit": "",
+            "$": "1.0"
+          },
+          "tax-rate": "0.1",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "refundableLinePrice",
+              "$": "4.5"
+            }
+          }
+        }
+      ]
+    },
+    "shipping-lineitems": {
+      "shipping-lineitem": {
+        "net-price": "9.05",
+        "tax": "0.90",
+        "gross-price": "9.95",
+        "base-price": "9.95",
+        "lineitem-text": "Shipping",
+        "tax-basis": "9.95",
+        "price-adjustments": {
+          "price-adjustment": {
+            "net-price": "-9.05",
+            "tax": "-0.90",
+            "gross-price": "-9.95",
+            "base-price": "-9.95",
+            "lineitem-text": "AU_Standard_Shipping",
+            "tax-basis": "-9.95",
+            "promotion-id": "AU_Standard_Shipping",
+            "campaign-id": "8"
+          }
+        },
+        "item-id": "STANDARD_SHIPPING",
+        "shipment-id": "01983723",
+        "tax-rate": "0.1"
+      }
+    },
+    "shipments": {
+      "shipment": {
+        "@shipment-id": "01983723",
+        "status": {
+          "shipping-status": "NOT_SHIPPED"
+        },
+        "shipping-method": "6187",
+        "shipping-address": {
+          "first-name": "Kym",
+          "last-name": "Pearce",
+          "address1": "PO Box 80",
+          "city": "Petrie",
+          "postal-code": "4502",
+          "state-code": "QLD",
+          "country-code": "AU",
+          "phone": "0400 611638",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "email",
+              "$": "kym.pearce@gmail.com"
+            }
+          }
+        },
+        "gift": "false",
+        "totals": {
+          "merchandize-total": {
+            "net-price": "153.55",
+            "tax": "2.45",
+            "gross-price": "156.00"
+          },
+          "adjusted-merchandize-total": {
+            "net-price": "107.55",
+            "tax": "2.45",
+            "gross-price": "110.00"
+          },
+          "shipping-total": {
+            "net-price": "9.05",
+            "tax": "0.90",
+            "gross-price": "9.95"
+          },
+          "adjusted-shipping-total": {
+            "net-price": "0.00",
+            "tax": "0.00",
+            "gross-price": "0.00"
+          },
+          "shipment-total": {
+            "net-price": "107.55",
+            "tax": "2.45",
+            "gross-price": "110.00"
+          }
+        }
+      }
+    },
+    "totals": {
+      "merchandize-total": {
+        "net-price": "153.55",
+        "tax": "2.45",
+        "gross-price": "156.00",
+        "price-adjustments": {
+          "price-adjustment": {
+            "net-price": "-10.83",
+            "tax": "-0.17",
+            "gross-price": "-11.00",
+            "base-price": "-11.00",
+            "lineitem-text": "10% Off Tea Society",
+            "tax-basis": "-11.00",
+            "promotion-id": "10%_Off_Site_Wide",
+            "campaign-id": "10%_Off_Site_Wide"
+          }
+        }
+      },
+      "adjusted-merchandize-total": {
+        "net-price": "96.72",
+        "tax": "2.28",
+        "gross-price": "99.00"
+      },
+      "shipping-total": {
+        "net-price": "9.05",
+        "tax": "0.90",
+        "gross-price": "9.95"
+      },
+      "adjusted-shipping-total": {
+        "net-price": "0.00",
+        "tax": "0.00",
+        "gross-price": "0.00"
+      },
+      "order-total": {
+        "net-price": "96.72",
+        "tax": "2.28",
+        "gross-price": "99.00"
+      }
+    },
+    "payments": {
+      "payment": {
+        "custom-method": {
+          "method-name": "AFTERPAY_PBI"
+        },
+        "amount": "99.00",
+        "processor-id": "AFTERPAY_CREDIT",
+        "transaction-id": "125881401",
+        "custom-attributes": {
+          "custom-attribute": [
+            {
+              "@attribute-id": "acquirerReference",
+              "$": "125881401"
+            },
+            {
+              "@attribute-id": "apDirectPaymentStatus",
+              "$": "APPROVED"
+            },
+            {
+              "@attribute-id": "apInitialStatus",
+              "$": "SUCCESS"
+            },
+            {
+              "@attribute-id": "apPaymentID",
+              "$": "125881401"
+            },
+            {
+              "@attribute-id": "apPaymentMode",
+              "$": "DIRECT_CAPTURE"
+            },
+            {
+              "@attribute-id": "apToken",
+              "$": "001.ffjc9sqaapqp2i0vokj13im6mi86jgl1fsp7tfgrqdsafar7"
+            },
+            {
+              "@attribute-id": "merchantReference",
+              "$": "001.ffjc9sqaapqp2i0vokj13im6mi86jgl1fsp7tfgrqdsafar7"
+            },
+            {
+              "@attribute-id": "pspAuthorizedAmount",
+              "$": "99.0"
+            },
+            {
+              "@attribute-id": "pspPaymentMethod",
+              "$": "AFTERPAY_PBI"
+            },
+            {
+              "@attribute-id": "pspReference",
+              "$": "125881401"
+            },
+            {
+              "@attribute-id": "pspStatusCode",
+              "$": "APPROVED"
+            },
+            {
+              "@attribute-id": "pspStatusReason",
+              "$": "APPROVED"
+            }
+          ]
+        }
+      }
+    },
+    "remoteHost": "145.34.136.131",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "CoreMarketCountry",
+          "$": "AU"
+        },
+        {
+          "@attribute-id": "GivexPostStatus",
+          "$": "Pending"
+        },
+        {
+          "@attribute-id": "apIsAfterpayOrder",
+          "$": "true"
+        },
+        {
+          "@attribute-id": "apPaymentID",
+          "$": "125881401"
+        },
+        {
+          "@attribute-id": "apPaymentStatus",
+          "$": "APPROVED"
+        },
+        {
+          "@attribute-id": "cncStore",
+          "$": "27"
+        },
+        {
+          "@attribute-id": "customerLoyaltyNumber",
+          "$": "90360100000002686225"
+        },
+        {
+          "@attribute-id": "invoicePreference",
+          "$": "true"
+        },
+        {
+          "@attribute-id": "isCNCOrder",
+          "$": "false"
+        },
+        {
+          "@attribute-id": "isOrderConfirmationEmailSent",
+          "$": "true"
+        },
+        {
+          "@attribute-id": "lCode",
+          "$": "2731602"
+        },
+        {
+          "@attribute-id": "orderLocale",
+          "$": "en_AU"
+        },
+        {
+          "@attribute-id": "orderType",
+          "$": "Online"
+        },
+        {
+          "@attribute-id": "placedFromSite",
+          "$": "UNI-T2-APAC"
+        }
+      ]
+    }
+  },
+  "3": {
+    "@xmlns:xmlns": "http://www.demandware.com/xml/impex/order/2006-10-31",
+    "@order-no": "APAC_00861359",
+    "order-date": "2020-06-19T04:59:39.000Z",
+    "created-by": "storefront",
+    "original-order-no": "APAC_00861356",
+    "currency": "AUD",
+    "customer-locale": "en_AU",
+    "taxation": "gross",
+    "invoice-no": "02888343",
+    "customer": {
+      "customer-no": "02686225",
+      "customer-name": "Kym Pearce",
+      "customer-email": "kym.pearce@gmail.com",
+      "billing-address": {
+        "first-name": "Kym",
+        "last-name": "Pearce",
+        "address1": "PO Box 80",
+        "city": "Petrie",
+        "postal-code": "4502",
+        "state-code": "QLD",
+        "country-code": "AU",
+        "phone": "0400 611638"
+      }
+    },
+    "status": {
+      "order-status": "NEW",
+      "shipping-status": "NOT_SHIPPED",
+      "confirmation-status": "NOT_CONFIRMED",
+      "payment-status": "PAID"
+    },
+    "current-order-no": "APAC_00861356",
+    "product-lineitems": {
+      "product-lineitem": [
+        {
+          "net-price": "36.00",
+          "tax": "0.00",
+          "gross-price": "36.00",
+          "base-price": "36.00",
+          "lineitem-text": "Organic Chai Loose Leaf Everyday Refill",
+          "tax-basis": "36.00",
+          "position": "1",
+          "product-id": "T125AG005",
+          "product-name": "Organic Chai Loose Leaf Everyday Refill",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "22.5"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-11.00",
+              "tax": "0.00",
+              "gross-price": "-11.00",
+              "base-price": "-11.00",
+              "lineitem-text": "fixed-price-25",
+              "tax-basis": "-11.00",
+              "promotion-id": "fixed-price-25",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "32.00",
+          "tax": "0.00",
+          "gross-price": "32.00",
+          "base-price": "16.00",
+          "lineitem-text": "Honey Vanilla Loose Leaf Gift Cube",
+          "tax-basis": "32.00",
+          "position": "2",
+          "product-id": "T135AE003",
+          "product-name": "Honey Vanilla Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "2.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "9.0"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-12.00",
+              "tax": "0.00",
+              "gross-price": "-12.00",
+              "base-price": "-12.00",
+              "lineitem-text": "fixed-price-10",
+              "tax-basis": "-12.00",
+              "promotion-id": "fixed-price-10",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "15.00",
+          "tax": "0.00",
+          "gross-price": "15.00",
+          "base-price": "15.00",
+          "lineitem-text": "Vanilla Slice Loose Leaf Gift Cube",
+          "tax-basis": "15.00",
+          "position": "3",
+          "product-id": "T130AE009",
+          "product-name": "Vanilla Slice Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "6.3"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-8.00",
+              "tax": "0.00",
+              "gross-price": "-8.00",
+              "base-price": "-8.00",
+              "lineitem-text": "fixed-price-7",
+              "tax-basis": "-8.00",
+              "promotion-id": "fixed-price-7",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "16.00",
+          "tax": "0.00",
+          "gross-price": "16.00",
+          "base-price": "16.00",
+          "lineitem-text": "Green Rose Loose Leaf Gift Cube",
+          "tax-basis": "16.00",
+          "position": "4",
+          "product-id": "T115AE010",
+          "product-name": "Green Rose Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "9.0"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-6.00",
+              "tax": "0.00",
+              "gross-price": "-6.00",
+              "base-price": "-6.00",
+              "lineitem-text": "fixed-price-10",
+              "tax-basis": "-6.00",
+              "promotion-id": "fixed-price-10",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "14.00",
+          "tax": "0.00",
+          "gross-price": "14.00",
+          "base-price": "14.00",
+          "lineitem-text": "Sencha Vanilla Loose Leaf Gift Cube",
+          "tax-basis": "14.00",
+          "position": "5",
+          "product-id": "T115AE018",
+          "product-name": "Sencha Vanilla Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "4.5"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-9.00",
+              "tax": "0.00",
+              "gross-price": "-9.00",
+              "base-price": "-9.00",
+              "lineitem-text": "fixed-price-5",
+              "tax-basis": "-9.00",
+              "promotion-id": "fixed-price-5",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "16.00",
+          "tax": "0.00",
+          "gross-price": "16.00",
+          "base-price": "16.00",
+          "lineitem-text": "Packs A Peach Loose Leaf Gift Cube",
+          "tax-basis": "16.00",
+          "position": "6",
+          "product-id": "T130AE057",
+          "product-name": "Packs A Peach Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "14.4"
+              }
+            ]
+          }
+        },
+        {
+          "net-price": "9.09",
+          "tax": "0.91",
+          "gross-price": "10.00",
+          "base-price": "5.00",
+          "lineitem-text": "Moroccan Moment Tea Glass Aqua",
+          "tax-basis": "10.00",
+          "position": "7",
+          "product-id": "H205BC578",
+          "product-name": "Moroccan Moment Tea Glass Aqua",
+          "quantity": {
+            "@unit": "",
+            "$": "2.0"
+          },
+          "tax-rate": "0.1",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "refundableLinePrice",
+              "$": "4.5"
+            }
+          }
+        },
+        {
+          "net-price": "6.36",
+          "tax": "0.64",
+          "gross-price": "7.00",
+          "base-price": "7.00",
+          "lineitem-text": "Porto Tumbler Teal",
+          "tax-basis": "7.00",
+          "position": "8",
+          "product-id": "H210BC932",
+          "product-name": "Porto Tumbler Teal",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.1",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "refundableLinePrice",
+              "$": "6.3"
+            }
+          }
+        },
+        {
+          "net-price": "4.55",
+          "tax": "0.45",
+          "gross-price": "5.00",
+          "base-price": "5.00",
+          "lineitem-text": "Moroccan Moment Tea Glass Rose",
+          "tax-basis": "5.00",
+          "position": "9",
+          "product-id": "H205BC585",
+          "product-name": "Moroccan Moment Tea Glass Rose",
+          "quantity": {
+            "@unit": "",
+            "$": "1.0"
+          },
+          "tax-rate": "0.1",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "refundableLinePrice",
+              "$": "4.5"
+            }
+          }
+        },
+        {
+          "net-price": "4.55",
+          "tax": "0.45",
+          "gross-price": "5.00",
+          "base-price": "5.00",
+          "lineitem-text": "Moroccan Moment Tea Glass Opaque",
+          "tax-basis": "5.00",
+          "position": "10",
+          "product-id": "H205BC579",
+          "product-name": "Moroccan Moment Tea Glass Opaque",
+          "quantity": {
+            "@unit": "",
+            "$": "1.0"
+          },
+          "tax-rate": "0.1",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "refundableLinePrice",
+              "$": "4.5"
+            }
+          }
+        }
+      ]
+    },
+    "shipping-lineitems": {
+      "shipping-lineitem": {
+        "net-price": "9.05",
+        "tax": "0.90",
+        "gross-price": "9.95",
+        "base-price": "9.95",
+        "lineitem-text": "Shipping",
+        "tax-basis": "9.95",
+        "price-adjustments": {
+          "price-adjustment": {
+            "net-price": "-9.05",
+            "tax": "-0.90",
+            "gross-price": "-9.95",
+            "base-price": "-9.95",
+            "lineitem-text": "AU_Standard_Shipping",
+            "tax-basis": "-9.95",
+            "promotion-id": "AU_Standard_Shipping",
+            "campaign-id": "8"
+          }
+        },
+        "item-id": "STANDARD_SHIPPING",
+        "shipment-id": "01983723",
+        "tax-rate": "0.1"
+      }
+    },
+    "shipments": {
+      "shipment": {
+        "@shipment-id": "01983723",
+        "status": {
+          "shipping-status": "NOT_SHIPPED"
+        },
+        "shipping-method": "6187",
+        "shipping-address": {
+          "first-name": "Kym",
+          "last-name": "Pearce",
+          "address1": "PO Box 80",
+          "city": "Petrie",
+          "postal-code": "4502",
+          "state-code": "QLD",
+          "country-code": "AU",
+          "phone": "0400 611638",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "email",
+              "$": "kym.pearce@gmail.com"
+            }
+          }
+        },
+        "gift": "false",
+        "totals": {
+          "merchandize-total": {
+            "net-price": "153.55",
+            "tax": "2.45",
+            "gross-price": "156.00"
+          },
+          "adjusted-merchandize-total": {
+            "net-price": "107.55",
+            "tax": "2.45",
+            "gross-price": "110.00"
+          },
+          "shipping-total": {
+            "net-price": "9.05",
+            "tax": "0.90",
+            "gross-price": "9.95"
+          },
+          "adjusted-shipping-total": {
+            "net-price": "0.00",
+            "tax": "0.00",
+            "gross-price": "0.00"
+          },
+          "shipment-total": {
+            "net-price": "107.55",
+            "tax": "2.45",
+            "gross-price": "110.00"
+          }
+        }
+      }
+    },
+    "totals": {
+      "merchandize-total": {
+        "net-price": "153.55",
+        "tax": "2.45",
+        "gross-price": "156.00",
+        "price-adjustments": {
+          "price-adjustment": {
+            "net-price": "-10.83",
+            "tax": "-0.17",
+            "gross-price": "-11.00",
+            "base-price": "-11.00",
+            "lineitem-text": "10% Off Tea Society",
+            "tax-basis": "-11.00",
+            "promotion-id": "10%_Off_Site_Wide",
+            "campaign-id": "10%_Off_Site_Wide"
+          }
+        }
+      },
+      "adjusted-merchandize-total": {
+        "net-price": "96.72",
+        "tax": "2.28",
+        "gross-price": "99.00"
+      },
+      "shipping-total": {
+        "net-price": "9.05",
+        "tax": "0.90",
+        "gross-price": "9.95"
+      },
+      "adjusted-shipping-total": {
+        "net-price": "0.00",
+        "tax": "0.00",
+        "gross-price": "0.00"
+      },
+      "order-total": {
+        "net-price": "96.72",
+        "tax": "2.28",
+        "gross-price": "99.00"
+      }
+    },
+    "payments": {
+      "payment": {
+        "custom-method": {
+          "method-name": "AFTERPAY_PBI"
+        },
+        "amount": "99.00",
+        "processor-id": "AFTERPAY_CREDIT",
+        "transaction-id": "125881401",
+        "custom-attributes": {
+          "custom-attribute": [
+            {
+              "@attribute-id": "acquirerReference",
+              "$": "125881401"
+            },
+            {
+              "@attribute-id": "apDirectPaymentStatus",
+              "$": "APPROVED"
+            },
+            {
+              "@attribute-id": "apInitialStatus",
+              "$": "SUCCESS"
+            },
+            {
+              "@attribute-id": "apPaymentID",
+              "$": "125881401"
+            },
+            {
+              "@attribute-id": "apPaymentMode",
+              "$": "DIRECT_CAPTURE"
+            },
+            {
+              "@attribute-id": "apToken",
+              "$": "001.ffjc9sqaapqp2i0vokj13im6mi86jgl1fsp7tfgrqdsafar7"
+            },
+            {
+              "@attribute-id": "merchantReference",
+              "$": "001.ffjc9sqaapqp2i0vokj13im6mi86jgl1fsp7tfgrqdsafar7"
+            },
+            {
+              "@attribute-id": "pspAuthorizedAmount",
+              "$": "99.0"
+            },
+            {
+              "@attribute-id": "pspPaymentMethod",
+              "$": "AFTERPAY_PBI"
+            },
+            {
+              "@attribute-id": "pspReference",
+              "$": "125881401"
+            },
+            {
+              "@attribute-id": "pspStatusCode",
+              "$": "APPROVED"
+            },
+            {
+              "@attribute-id": "pspStatusReason",
+              "$": "APPROVED"
+            }
+          ]
+        }
+      }
+    },
+    "remoteHost": "145.34.136.131",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "CoreMarketCountry",
+          "$": "AU"
+        },
+        {
+          "@attribute-id": "GivexPostStatus",
+          "$": "Pending"
+        },
+        {
+          "@attribute-id": "apIsAfterpayOrder",
+          "$": "true"
+        },
+        {
+          "@attribute-id": "apPaymentID",
+          "$": "125881401"
+        },
+        {
+          "@attribute-id": "apPaymentStatus",
+          "$": "APPROVED"
+        },
+        {
+          "@attribute-id": "cncStore",
+          "$": "27"
+        },
+        {
+          "@attribute-id": "customerLoyaltyNumber",
+          "$": "90360100000002686225"
+        },
+        {
+          "@attribute-id": "invoicePreference",
+          "$": "true"
+        },
+        {
+          "@attribute-id": "isCNCOrder",
+          "$": "false"
+        },
+        {
+          "@attribute-id": "isOrderConfirmationEmailSent",
+          "$": "true"
+        },
+        {
+          "@attribute-id": "lCode",
+          "$": "2731602"
+        },
+        {
+          "@attribute-id": "orderLocale",
+          "$": "en_AU"
+        },
+        {
+          "@attribute-id": "orderType",
+          "$": "Online"
+        },
+        {
+          "@attribute-id": "placedFromSite",
+          "$": "UNI-T2-APAC"
+        }
+      ]
+    }
+  },
+  "4": {
+    "@xmlns:xmlns": "http://www.demandware.com/xml/impex/order/2006-10-31",
+    "@order-no": "APAC_00861360",
+    "order-date": "2020-06-19T04:59:39.000Z",
+    "created-by": "storefront",
+    "original-order-no": "APAC_00861356",
+    "currency": "AUD",
+    "customer-locale": "en_AU",
+    "taxation": "gross",
+    "invoice-no": "02888343",
+    "customer": {
+      "customer-no": "02686225",
+      "customer-name": "Kym Pearce",
+      "customer-email": "kym.pearce@gmail.com",
+      "billing-address": {
+        "first-name": "Kym",
+        "last-name": "Pearce",
+        "address1": "PO Box 80",
+        "city": "Petrie",
+        "postal-code": "4502",
+        "state-code": "QLD",
+        "country-code": "AU",
+        "phone": "0400 611638"
+      }
+    },
+    "status": {
+      "order-status": "NEW",
+      "shipping-status": "NOT_SHIPPED",
+      "confirmation-status": "NOT_CONFIRMED",
+      "payment-status": "PAID"
+    },
+    "current-order-no": "APAC_00861356",
+    "product-lineitems": {
+      "product-lineitem": [
+        {
+          "net-price": "36.00",
+          "tax": "0.00",
+          "gross-price": "36.00",
+          "base-price": "36.00",
+          "lineitem-text": "Organic Chai Loose Leaf Everyday Refill",
+          "tax-basis": "36.00",
+          "position": "1",
+          "product-id": "T125AG005",
+          "product-name": "Organic Chai Loose Leaf Everyday Refill",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "22.5"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-11.00",
+              "tax": "0.00",
+              "gross-price": "-11.00",
+              "base-price": "-11.00",
+              "lineitem-text": "fixed-price-25",
+              "tax-basis": "-11.00",
+              "promotion-id": "fixed-price-25",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "32.00",
+          "tax": "0.00",
+          "gross-price": "32.00",
+          "base-price": "16.00",
+          "lineitem-text": "Honey Vanilla Loose Leaf Gift Cube",
+          "tax-basis": "32.00",
+          "position": "2",
+          "product-id": "T135AE003",
+          "product-name": "Honey Vanilla Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "2.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "9.0"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-12.00",
+              "tax": "0.00",
+              "gross-price": "-12.00",
+              "base-price": "-12.00",
+              "lineitem-text": "fixed-price-10",
+              "tax-basis": "-12.00",
+              "promotion-id": "fixed-price-10",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "15.00",
+          "tax": "0.00",
+          "gross-price": "15.00",
+          "base-price": "15.00",
+          "lineitem-text": "Vanilla Slice Loose Leaf Gift Cube",
+          "tax-basis": "15.00",
+          "position": "3",
+          "product-id": "T130AE009",
+          "product-name": "Vanilla Slice Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "6.3"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-8.00",
+              "tax": "0.00",
+              "gross-price": "-8.00",
+              "base-price": "-8.00",
+              "lineitem-text": "fixed-price-7",
+              "tax-basis": "-8.00",
+              "promotion-id": "fixed-price-7",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "16.00",
+          "tax": "0.00",
+          "gross-price": "16.00",
+          "base-price": "16.00",
+          "lineitem-text": "Green Rose Loose Leaf Gift Cube",
+          "tax-basis": "16.00",
+          "position": "4",
+          "product-id": "T115AE010",
+          "product-name": "Green Rose Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "9.0"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-6.00",
+              "tax": "0.00",
+              "gross-price": "-6.00",
+              "base-price": "-6.00",
+              "lineitem-text": "fixed-price-10",
+              "tax-basis": "-6.00",
+              "promotion-id": "fixed-price-10",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "14.00",
+          "tax": "0.00",
+          "gross-price": "14.00",
+          "base-price": "14.00",
+          "lineitem-text": "Sencha Vanilla Loose Leaf Gift Cube",
+          "tax-basis": "14.00",
+          "position": "5",
+          "product-id": "T115AE018",
+          "product-name": "Sencha Vanilla Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "4.5"
+              }
+            ]
+          },
+          "price-adjustments": {
+            "price-adjustment": {
+              "net-price": "-9.00",
+              "tax": "0.00",
+              "gross-price": "-9.00",
+              "base-price": "-9.00",
+              "lineitem-text": "fixed-price-5",
+              "tax-basis": "-9.00",
+              "promotion-id": "fixed-price-5",
+              "campaign-id": "2020_june_mys_au"
+            }
+          }
+        },
+        {
+          "net-price": "16.00",
+          "tax": "0.00",
+          "gross-price": "16.00",
+          "base-price": "16.00",
+          "lineitem-text": "Packs A Peach Loose Leaf Gift Cube",
+          "tax-basis": "16.00",
+          "position": "6",
+          "product-id": "T130AE057",
+          "product-name": "Packs A Peach Loose Leaf Gift Cube",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.0",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": [
+              {
+                "@attribute-id": "isRefundable",
+                "$": "false"
+              },
+              {
+                "@attribute-id": "refundableLinePrice",
+                "$": "14.4"
+              }
+            ]
+          }
+        },
+        {
+          "net-price": "9.09",
+          "tax": "0.91",
+          "gross-price": "10.00",
+          "base-price": "5.00",
+          "lineitem-text": "Moroccan Moment Tea Glass Aqua",
+          "tax-basis": "10.00",
+          "position": "7",
+          "product-id": "H205BC578",
+          "product-name": "Moroccan Moment Tea Glass Aqua",
+          "quantity": {
+            "@unit": "",
+            "$": "2.0"
+          },
+          "tax-rate": "0.1",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "refundableLinePrice",
+              "$": "4.5"
+            }
+          }
+        },
+        {
+          "net-price": "6.36",
+          "tax": "0.64",
+          "gross-price": "7.00",
+          "base-price": "7.00",
+          "lineitem-text": "Porto Tumbler Teal",
+          "tax-basis": "7.00",
+          "position": "8",
+          "product-id": "H210BC932",
+          "product-name": "Porto Tumbler Teal",
+          "quantity": {
+            "@unit": "1",
+            "$": "1.0"
+          },
+          "tax-rate": "0.1",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "refundableLinePrice",
+              "$": "6.3"
+            }
+          }
+        },
+        {
+          "net-price": "4.55",
+          "tax": "0.45",
+          "gross-price": "5.00",
+          "base-price": "5.00",
+          "lineitem-text": "Moroccan Moment Tea Glass Rose",
+          "tax-basis": "5.00",
+          "position": "9",
+          "product-id": "H205BC585",
+          "product-name": "Moroccan Moment Tea Glass Rose",
+          "quantity": {
+            "@unit": "",
+            "$": "1.0"
+          },
+          "tax-rate": "0.1",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "refundableLinePrice",
+              "$": "4.5"
+            }
+          }
+        },
+        {
+          "net-price": "4.55",
+          "tax": "0.45",
+          "gross-price": "5.00",
+          "base-price": "5.00",
+          "lineitem-text": "Moroccan Moment Tea Glass Opaque",
+          "tax-basis": "5.00",
+          "position": "10",
+          "product-id": "H205BC579",
+          "product-name": "Moroccan Moment Tea Glass Opaque",
+          "quantity": {
+            "@unit": "",
+            "$": "1.0"
+          },
+          "tax-rate": "0.1",
+          "shipment-id": "01983723",
+          "gift": "false",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "refundableLinePrice",
+              "$": "4.5"
+            }
+          }
+        }
+      ]
+    },
+    "shipping-lineitems": {
+      "shipping-lineitem": {
+        "net-price": "9.05",
+        "tax": "0.90",
+        "gross-price": "9.95",
+        "base-price": "9.95",
+        "lineitem-text": "Shipping",
+        "tax-basis": "9.95",
+        "price-adjustments": {
+          "price-adjustment": {
+            "net-price": "-9.05",
+            "tax": "-0.90",
+            "gross-price": "-9.95",
+            "base-price": "-9.95",
+            "lineitem-text": "AU_Standard_Shipping",
+            "tax-basis": "-9.95",
+            "promotion-id": "AU_Standard_Shipping",
+            "campaign-id": "8"
+          }
+        },
+        "item-id": "STANDARD_SHIPPING",
+        "shipment-id": "01983723",
+        "tax-rate": "0.1"
+      }
+    },
+    "shipments": {
+      "shipment": {
+        "@shipment-id": "01983723",
+        "status": {
+          "shipping-status": "NOT_SHIPPED"
+        },
+        "shipping-method": "6187",
+        "shipping-address": {
+          "first-name": "Kym",
+          "last-name": "Pearce",
+          "address1": "PO Box 80",
+          "city": "Petrie",
+          "postal-code": "4502",
+          "state-code": "QLD",
+          "country-code": "AU",
+          "phone": "0400 611638",
+          "custom-attributes": {
+            "custom-attribute": {
+              "@attribute-id": "email",
+              "$": "kym.pearce@gmail.com"
+            }
+          }
+        },
+        "gift": "false",
+        "totals": {
+          "merchandize-total": {
+            "net-price": "153.55",
+            "tax": "2.45",
+            "gross-price": "156.00"
+          },
+          "adjusted-merchandize-total": {
+            "net-price": "107.55",
+            "tax": "2.45",
+            "gross-price": "110.00"
+          },
+          "shipping-total": {
+            "net-price": "9.05",
+            "tax": "0.90",
+            "gross-price": "9.95"
+          },
+          "adjusted-shipping-total": {
+            "net-price": "0.00",
+            "tax": "0.00",
+            "gross-price": "0.00"
+          },
+          "shipment-total": {
+            "net-price": "107.55",
+            "tax": "2.45",
+            "gross-price": "110.00"
+          }
+        }
+      }
+    },
+    "totals": {
+      "merchandize-total": {
+        "net-price": "153.55",
+        "tax": "2.45",
+        "gross-price": "156.00",
+        "price-adjustments": {
+          "price-adjustment": {
+            "net-price": "-10.83",
+            "tax": "-0.17",
+            "gross-price": "-11.00",
+            "base-price": "-11.00",
+            "lineitem-text": "10% Off Tea Society",
+            "tax-basis": "-11.00",
+            "promotion-id": "10%_Off_Site_Wide",
+            "campaign-id": "10%_Off_Site_Wide"
+          }
+        }
+      },
+      "adjusted-merchandize-total": {
+        "net-price": "96.72",
+        "tax": "2.28",
+        "gross-price": "99.00"
+      },
+      "shipping-total": {
+        "net-price": "9.05",
+        "tax": "0.90",
+        "gross-price": "9.95"
+      },
+      "adjusted-shipping-total": {
+        "net-price": "0.00",
+        "tax": "0.00",
+        "gross-price": "0.00"
+      },
+      "order-total": {
+        "net-price": "96.72",
+        "tax": "2.28",
+        "gross-price": "99.00"
+      }
+    },
+    "payments": {
+      "payment": {
+        "custom-method": {
+          "method-name": "AFTERPAY_PBI"
+        },
+        "amount": "99.00",
+        "processor-id": "AFTERPAY_CREDIT",
+        "transaction-id": "125881401",
+        "custom-attributes": {
+          "custom-attribute": [
+            {
+              "@attribute-id": "acquirerReference",
+              "$": "125881401"
+            },
+            {
+              "@attribute-id": "apDirectPaymentStatus",
+              "$": "APPROVED"
+            },
+            {
+              "@attribute-id": "apInitialStatus",
+              "$": "SUCCESS"
+            },
+            {
+              "@attribute-id": "apPaymentID",
+              "$": "125881401"
+            },
+            {
+              "@attribute-id": "apPaymentMode",
+              "$": "DIRECT_CAPTURE"
+            },
+            {
+              "@attribute-id": "apToken",
+              "$": "001.ffjc9sqaapqp2i0vokj13im6mi86jgl1fsp7tfgrqdsafar7"
+            },
+            {
+              "@attribute-id": "merchantReference",
+              "$": "001.ffjc9sqaapqp2i0vokj13im6mi86jgl1fsp7tfgrqdsafar7"
+            },
+            {
+              "@attribute-id": "pspAuthorizedAmount",
+              "$": "99.0"
+            },
+            {
+              "@attribute-id": "pspPaymentMethod",
+              "$": "AFTERPAY_PBI"
+            },
+            {
+              "@attribute-id": "pspReference",
+              "$": "125881401"
+            },
+            {
+              "@attribute-id": "pspStatusCode",
+              "$": "APPROVED"
+            },
+            {
+              "@attribute-id": "pspStatusReason",
+              "$": "APPROVED"
+            }
+          ]
+        }
+      }
+    },
+    "remoteHost": "145.34.136.131",
+    "custom-attributes": {
+      "custom-attribute": [
+        {
+          "@attribute-id": "CoreMarketCountry",
+          "$": "AU"
+        },
+        {
+          "@attribute-id": "GivexPostStatus",
+          "$": "Pending"
+        },
+        {
+          "@attribute-id": "apIsAfterpayOrder",
+          "$": "true"
+        },
+        {
+          "@attribute-id": "apPaymentID",
+          "$": "125881401"
+        },
+        {
+          "@attribute-id": "apPaymentStatus",
+          "$": "APPROVED"
+        },
+        {
+          "@attribute-id": "cncStore",
+          "$": "27"
+        },
+        {
+          "@attribute-id": "customerLoyaltyNumber",
+          "$": "90360100000002686225"
+        },
+        {
+          "@attribute-id": "invoicePreference",
+          "$": "true"
+        },
+        {
+          "@attribute-id": "isCNCOrder",
+          "$": "false"
+        },
+        {
+          "@attribute-id": "isOrderConfirmationEmailSent",
+          "$": "true"
+        },
+        {
+          "@attribute-id": "lCode",
+          "$": "2731602"
+        },
+        {
+          "@attribute-id": "orderLocale",
+          "$": "en_AU"
+        },
+        {
+          "@attribute-id": "orderType",
+          "$": "Online"
+        },
+        {
+          "@attribute-id": "placedFromSite",
+          "$": "UNI-T2-APAC"
+        }
+      ]
+    }
+  }
+}
